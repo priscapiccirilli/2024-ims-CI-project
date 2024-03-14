@@ -4,10 +4,10 @@ This module defines constants representing different ingredients that can be use
 for brewing potions. Each ingredient is represented by a string constant.
 
 Constants:
-- snake_skin: Represents snake skin, a common ingredient in potion brewing.
-- fish_eyes: Represents fish eyes, another ingredient used in potion brewing.
-- unicorn_hair: Represents unicorn hair, a magical ingredient for potion brewing.
-- tea_leaves: Represents tea leaves, an herbal ingredient often used in potion brewing.
+    - snake_skin: Represents snake skin, a common ingredient in potion brewing.
+    - fish_eyes: Represents fish eyes, another ingredient used in potion brewing.
+    - unicorn_hair: Represents unicorn hair, a magical ingredient for potion brewing.
+    - tea_leaves: Represents tea leaves, an herbal ingredient often used in potion brewing.
 
 """
 
