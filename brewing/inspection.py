@@ -1,3 +1,14 @@
+"""Module for potion inspection.
+
+This module contains a function for inspecting potions by Snape to determine if they were brewed correctly.
+The function checks various aspects of the potion, including the container, heat source, ingredients, and whether the potion was cooked properly.
+If any discrepancy is found, Snape penalizes the student and prompts them to start again.
+
+Functions:
+- inspection_by_Snape: Inspects a potion to determine if it was brewed correctly.
+"""
+
+
 import time
 
 

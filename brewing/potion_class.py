@@ -1,5 +1,32 @@
-class Potion:
+"""Module defining a Potion class for brewing potions.
 
+This module contains a class called Potion, which represents a potion being brewed.
+The Potion class includes attributes to track the potion's color, cooking status, container, heat source,
+ingredients, simmer duration, and the name of the student brewing the potion.
+It also provides methods for setting up the potion, adding ingredients, and managing potion attributes.
+"""
+
+
+class Potion:
+    """Class representing a potion.
+
+    This class provides functionality for brewing potions. It includes methods for setting up the potion,
+    adding ingredients, and managing potion attributes such as color, cooking status, container, and heat source.
+
+    Attributes:
+    - colour: The color of the potion.
+    - cooked: A boolean indicating whether the potion is cooked.
+    - container: The container used to brew the potion.
+    - heat_source: The heat source used to cook the potion.
+    - ingredients: A list of ingredients in the potion.
+    - simmer_duration: The duration for which the potion is simmered.
+    - student_name: The name of the student brewing the potion.
+
+    Methods:
+    - setup: Add a container and/or heat_source to the potion.
+    - add_ingredients: Add ingredients to the potion.
+
+    """
     def __init__(self, student_name):
         """This is a class for brewing potions."""
         self.colour = 'there-is-no-potion-so-the-potion-has-no-color'

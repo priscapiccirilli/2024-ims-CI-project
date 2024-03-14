@@ -1,3 +1,8 @@
+"""Module for brewing potions.
+
+This module provides functions for brewing potions. It includes functions for creating different types of potions, such as example potions and Python expert potions.
+"""
+
 import potion_class
 import containers
 import cooking
@@ -5,6 +10,18 @@ import inspection
 
 
 def make_example_potion(student_name="ASPP student"):
+    """Create an example potion instance.
+
+    Parameters
+    ----------
+    student_name : str, optional
+        The name of the student brewing the potion. Default is "ASPP student".
+
+    Returns
+    -------
+    my_potion : Potion instance
+        An instance of the Potion class representing the example potion.
+    """
     my_potion = potion_class.Potion(student_name=student_name)
     # Set up your old kettle and light an eternal flame underneath it.
     my_potion.setup(container=containers.old_kettle, heat_source=cooking.eternal_flame)
@@ -15,6 +32,26 @@ def make_example_potion(student_name="ASPP student"):
 
 
 def make_python_expert_potion(student_name):
+    """Create a Python expert potion instance
+
+    This function is responsible for creating a Python expert potion for a specific student.
+    The potion is brewed according to the standards required for achieving expertise in Python.
+
+    Parameters
+    ----------
+    student_name : str
+        The name of the student brewing the potion.
+
+    Returns
+    -------
+    my_potion : Potion instance
+        An instance of the Potion class representing the example potion.
+
+    Notes
+    -----
+    This function is a placeholder and requires implementation to define the brewing process
+    for the Python expert potion.
+    """
     print("I am a Python Expert")
     # todo: write this function!
     return

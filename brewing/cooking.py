@@ -1,3 +1,13 @@
+"""Module defining heat sources and functions for potion cooking.
+
+This module defines constants representing different heat sources that can be used for cooking potions,
+such as fire and eternal flame. It also provides functions for stirring and simmering potions.
+
+"""
+
+
+
+
 # heat sources
 fire = 'fire'
 eternal_flame = 'eternal_flame'
