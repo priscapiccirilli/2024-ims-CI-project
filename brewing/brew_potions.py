@@ -3,10 +3,10 @@
 This module provides functions for brewing potions. It includes functions for creating different types of potions, such as example potions and Python expert potions.
 """
 
-import potion_class
-import containers
-import cooking
-import inspection
+from brewing import potion_class
+from brewing import containers
+from brewing import cooking
+from brewing import inspection
 
 
 def make_example_potion(student_name="ASPP student"):
